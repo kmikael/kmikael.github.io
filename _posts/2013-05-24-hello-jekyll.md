@@ -4,11 +4,11 @@ date: 2013-05-24 14:52:10
 title: Hello, Jekyll
 ---
 
-I'm launching this site today. It's a static site built with [Jekyll](http://jekyllrb.com) and the color scheme and choice of fonts has been havily inspired by [orderedlist's minimal theme](https://github.com/orderedlist/minimal). I'm not going to talk about building a site with Jekyll, because the newly launched [official site](http://jekyllrb.com) does an excellent job at that, but I am gping to talk about I few problems I had along the way and a few things to improve the Jekyll workflow.
+I'm launching this site today. It's a static site built with [Jekyll](http://jekyllrb.com) and the color scheme and choice of fonts has been havily inspired by [orderedlist's minimal theme](https://github.com/orderedlist/minimal). I'm not going to talk about building a site with Jekyll, because the newly launched [official site](http://jekyllrb.com) does an excellent job at that, but I am going to talk about a few problems I had along the way and a few things you can do to improve your Jekyll workflow.
 
 ## Use a Rakefile
 
-It gets boring to type `jekyll serve --watch` and to create new files named `2013-05-24-hello,-jekyll.md` really fast. A few `rake` tasks can significantly speed things up. This is what mine looks like:
+It gets boring to type `jekyll serve --watch` and to create new files named `2013-05-24-hello-jekyll.md` really fast. A few `rake` tasks can significantly speed things up. This is what mine looks like:
 
 {% highlight ruby %}
 task :default => [:serve]
@@ -47,7 +47,7 @@ end
 
 ## Use rdiscount or redcarpet
 
-The default markdown parser `maruku` works fine most of the time but I've run into a fre problems like getting an `REXML could not parse this XML/HTML` error when I try to highlight Objective-C code. Switch to `rdiscount` or `redcarpet` and the error goes away. Just add `markdown: redcarpet` to your cofiguration file.
+The default markdown parser `maruku` works fine most of the time but I've run into a few problems like getting an `REXML could not parse this XML/HTML` error when I try to highlight Objective-C code. Switch to `rdiscount` or `redcarpet` and the error goes away. Just add `markdown: redcarpet` to your cofiguration file.
 
 ## Pretty Permalinks
 

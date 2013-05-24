@@ -11,4 +11,4 @@ If you're a [Pinboard](https://pinboard.in/) user, you might want to check out m
 
 This site you're looking at right now was built with [Jekyll](http://jekyllrb.com) and is hosted on [GitHub Pages](http://pages.github.com).
 
-[Email me](mailto:kmikael@me.com) and say hi.
+[Email me](mailto:me@kmikael.com) and say hi.
