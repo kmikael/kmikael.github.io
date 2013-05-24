@@ -25,7 +25,7 @@ task :post do
   EOS
   
   datef = date.strftime('%Y-%m-%d')
-  titlef = title.downcase.gsub(' ', '-')
+  titlef = title.title.downcase.gsub(/[^a-z ]/, '').gsub(/ /, '-')
   filename = "_posts/#{datef}-#{titlef}.md"
   
   File.write filename, content
