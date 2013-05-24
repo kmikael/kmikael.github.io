@@ -1,0 +1,15 @@
+source: .
+destination: ./public
+exclude: ['CNAME', 'Rakefile', 'README.md', 'public', 'config.ru']
+
+relative_permalinks: false
+
+permalink: pretty
+
+safe: true
+url: http://kmikael.com
+
+name: Mikael Konutgan
+description: 'Thoughts on programming, Unix and technology'
+
+markdown: redcarpet
