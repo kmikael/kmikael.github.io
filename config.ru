@@ -1,2 +1,2 @@
-require 'rack/jekyll'
-run Rack::Jekyll.new
+require 'vienna'
+run Vienna
