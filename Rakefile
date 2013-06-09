@@ -13,7 +13,7 @@ end
 desc 'Create a new post'
 task :post do
   date = Time.new
-  title = STDIN.gets.chomp
+  title = STDIN.gets.chomp.strip
   
   content = <<-EOS.gsub(/^ +/, '')
     ---
@@ -24,9 +24,9 @@ task :post do
     
   EOS
   
-  datef = date.strftime('%Y-%m-%d')
-  titlef = title.downcase.gsub(/[^a-z ]/, '').gsub(/ /, '-')
-  filename = "_posts/#{datef}-#{titlef}.md"
+  date_slug = date.strftime('%Y-%m-%d')
+  title_slug = title.downcase.tr_s('^A-Za-z0-9', '-').chomp('-')
+  filename = "_posts/#{date_slug}-#{title_slug}.md"
   
   File.write filename, content
 end
