@@ -66,7 +66,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Mikael K.</title>
+    <title>Mikael Konutgan</title>
     <link>{{ site.url }}</link>
     <description>Thoughts on programming and technology</description>
     {% for post in site.posts limit:20 %}
