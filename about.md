@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-Hi, I'm Mikael. I'm a student and developer living in Vienna. I make native iOS apps and code mostly in Ruby the rest of the time.
+Hi, I'm Mikael. I'm a math and computer science student and developer living in Vienna. I make native iOS apps and code mostly in Ruby the rest of the time.
 
 I spend a lot of time on [Twitter](https://twitter.com/mkonutgan) and [GitHub](https://github.com/kmikael/). I'm also on [App.net](https://alpha.app.net/kmikael).
 
