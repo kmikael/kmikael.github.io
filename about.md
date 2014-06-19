@@ -7,7 +7,7 @@ Hi, I'm Mikael. I'm a math and computer science student and developer living in 
 
 I spend a lot of time on [Twitter](https://twitter.com/mkonutgan) and [GitHub](https://github.com/kmikael/). I'm also on [App.net](https://alpha.app.net/kmikael).
 
-If you're a [Pinboard](https://pinboard.in/) user, you might want to check out my app, <a href="http://www.pinbrowser.co" id="pinbrowser">Pinbrowser</a>.
+If you're a [Pinboard](https://pinboard.in/) user, you might want to check out my app, [Pinbrowser](http://www.pinbrowser.co).
 
 This site you're looking at right now was built with [Jekyll](http://jekyllrb.com) and is hosted on [GitHub Pages](http://pages.github.com).
 
