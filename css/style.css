@@ -135,6 +135,14 @@ header, nav, footer {
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
 @media print, screen and (max-width: 960px) {
   body {
     width: auto;
