@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 30px;
   font-size: 16px;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -105,7 +105,7 @@ hr {
 }
 
 header {
-  margin: 0px;
+  text-align: center;
 }
 
 header h1 {
@@ -113,6 +113,7 @@ header h1 {
 }
 
 nav {
+  text-align: center;
   margin: 12px 0px 12px 0px;
 }
 
@@ -127,11 +128,20 @@ section {
   margin: 0px 0px 20px;
 }
 
-footer {
-  /* rules */
+article header {
+  text-align: left;
+  margin: 0px 0px 20px 0px;
 }
 
-header, nav, footer {
+article header h2 {
+  margin: 0px;
+}
+
+article header time {
+  font-size: 14px;
+}
+
+footer {
   text-align: center;
 }
 
@@ -162,6 +172,10 @@ li {
 @media print, screen and (max-width: 480px) {
   body {
     padding: 15px;
+  }
+  
+  nav a {
+    padding: 0px 4px 0px 4px;
   }
 }
 
