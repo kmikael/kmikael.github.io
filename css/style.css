@@ -137,6 +137,10 @@ article header h2 {
   margin: 0px;
 }
 
+article header h3 {
+  margin: 0px;
+}
+
 article header time {
   font-size: 14px;
 }
