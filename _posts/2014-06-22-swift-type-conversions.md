@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2014-06-22 19:54:17
-title: Swift type conversions
+title: Swift Type Conversions
 ---
 
 In Swift, the native `String`, `Array` and `Dictionary` types are implicitly bridged to the `Foundation` classes `NSString`, `NSArray` and `NSDictionary`. In practice, this means that any Cocoa API we call that takes a `Foundation` class can take the corresponding Swift type (I don't say class here, because in Swift, `String`, `Array` and `Dictionary` are structs).
