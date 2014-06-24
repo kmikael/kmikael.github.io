@@ -8,7 +8,7 @@ In Swift, the native `String`, `Array` and `Dictionary` types are implicitly bri
 
 It turns out that like many other things in Swift, this isn't some language magic that only Apple gets to use. We can also build such implicit bridges, thanks to an undocumented Swift feature: The `__conversion` function.
 
-Let's say we want to build a `Point` structure. We will be using it in a context that doesn't involve Core Graphics, Sprite Kit or a similar framework that already uses `CGPoint`. In addition, we want to build the struct in a modern way using new features idioms like generics and tuples. But, we also want to use our new struct with Core Graphics APIs sometimes so we can take advantage of all the convenience functions we implemented (This is a contrived example, because points are so simple, but bare with me).
+Let's say we want to build a `Point` structure. We will be using it in a context that doesn't involve Core Graphics, Sprite Kit or a similar framework that already uses `CGPoint`. In addition, we want to build the struct in a modern way using new features idioms like generics and tuples. But, we also want to use our new struct with Core Graphics APIs sometimes so we can take advantage of all the convenience functions we implemented (This is a contrived example, because points are so simple, but bear with me).
 
     struct Point {
         let x: Double, y: Double
