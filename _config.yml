@@ -1,6 +1,6 @@
-source: .
-destination: ./public
-exclude: ['CNAME', 'Rakefile', 'README.md', 'public', 'config.ru']
+# Jekyll Configuration
+
+exclude: ['README.md', 'CNAME']
 
 relative_permalinks: false
 

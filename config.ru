@@ -1,2 +1,0 @@
-require 'vienna'
-run Vienna
