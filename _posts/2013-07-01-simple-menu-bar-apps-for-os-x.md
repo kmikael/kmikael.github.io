@@ -8,7 +8,7 @@ It's pretty easy to make a simple menu bar app on OS X. The main thing you need 
 
 {% highlight objective-c %}
 @interface KMAppDelegate : NSObject <NSApplicationDelegate>
-    
+
 @property (strong, nonatomic) NSStatusItem *statusItem;
     
 @end
@@ -29,18 +29,20 @@ _statusItem.alternateImage = [NSImage imageNamed:@"feedbin-logo-alt"];
 // The image gets a blue background when the item is selected
 _statusItem.highlightMode = YES;
 {% endhighlight %}
-    
+
 Next, you will want something to happen when the status item is clicked. You have a few options here: You can have a menu be shown, you can configure a target-action pair and use the status item like a button or you can have a custom view be shown. See [the documentation](https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ApplicationKit/Classes/NSStatusItem_Class/Reference/Reference.html) for all the details. Here, we use a simple menu and attach it to the status item.
 
 {% highlight objective-c %}
 NSMenu *menu = [[NSMenu alloc] init];
 [menu addItemWithTitle:@"Open Feedbin" action:@selector(openFeedbin:) keyEquivalent:@""];
 [menu addItemWithTitle:@"Refresh" action:@selector(getUnreadEntries:) keyEquivalent:@""];
+
 if ([[[KMFeedbinCredentialStorage sharedCredentialStorage] credential] hasPassword]) {
     [menu addItemWithTitle:@"Log Out" action:@selector(logOut:) keyEquivalent:@""];
 } else {
     [menu addItemWithTitle:@"Log In" action:@selector(logIn:) keyEquivalent:@""];
 }
+
 [menu addItem:[NSMenuItem separatorItem]]; // A thin grey line
 [menu addItemWithTitle:@"Quit Feedbin Notifier" action:@selector(terminate:) keyEquivalent:@""];
 _statusItem.menu = menu;
