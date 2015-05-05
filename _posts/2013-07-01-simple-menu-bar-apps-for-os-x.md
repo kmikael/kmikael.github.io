@@ -4,6 +4,8 @@ date: 2013-07-01 15:01:17
 title: Making Simple Menu Bar Apps for OS X
 ---
 
+**Update {{ "2015-05-05" | date_to_long_string }}:** I have written [an updated, more in depth tutorial]({% post_url 2015-05-05-os-x-tutorial-a-menu-bar-app %}) on how to make a menu bar app on OS X 10.10 Yosemite and with Swift.
+
 It's pretty easy to make a simple menu bar app on OS X. The main thing you need to do is to create an `NSStatusItem` instance variable in your app delegate. To do this, you ask `[NSStatusBar systemStatusBar]` to create one for you, providing a `length`. In almost every case you will want to use `NSVariableStatusItemLength` instead of some fixed `float` value. Once you have an `NSStatusItem`, you can configure it using it's properties. I used some of the most relevant ones below:
 
 {% highlight objective-c %}
