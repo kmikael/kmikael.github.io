@@ -10,4 +10,4 @@ Since then, Apple has released Yosemite, which changes the way the menu bar APIs
 
 My tutorial was due an update, so I pitched the idea of writing a complete menu bar app for OS X tutorial to Ray, [for whom I have been updating tutorials for iOS 8 and Swift](http://www.raywenderlich.com/u/kmikael) and he liked it.
 
-Check out the tutorial at [raywenderlich.com](http://www.raywenderlich.com/?p=98178&preview=true&preview_id=98178&preview_nonce=e17195e13c). I show you how to build a complete menu bar app that shows inspiratinal quotes in a popover.
+Check out the tutorial at [raywenderlich.com](http://www.raywenderlich.com/98178/os-x-tutorial-menus-popovers-menu-bar-apps). I show you how to build a complete menu bar app that shows inspiratinal quotes in a popover.
