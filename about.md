@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-Hi, I'm Mikael. I'm a mathematician, independent iOS developer and rubyist living in Vienna. I make native iOS apps and web services.
+Hi, I'm Mikael. I'm a mathematician, independent iOS developer and rubyist living in Vienna. I make native iOS apps and web services and write on [raywenderlich.com](http://www.raywenderlich.com/u/kmikael).
 
 I spend a lot of time on [Twitter](https://twitter.com/mkonutgan) and [GitHub](https://github.com/kmikael/).
 
